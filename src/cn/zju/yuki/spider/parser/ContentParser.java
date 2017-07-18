@@ -5,7 +5,11 @@ import org.jsoup.nodes.Document;
 
 import cn.zju.yuki.spider.model.FetchedPage;
 import cn.zju.yuki.spider.queue.VisitedUrlQueue;
-
+/**
+ * parser模块对Fetcher下载的页面内容进行解析，获取目标数据
+ * @author 13983
+ *
+ */
 public class ContentParser {
 	public Object parse(FetchedPage fetchedPage){
 		Object targetObject = null;

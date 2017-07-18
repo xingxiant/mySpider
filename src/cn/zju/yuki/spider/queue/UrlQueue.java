@@ -1,7 +1,11 @@
 package cn.zju.yuki.spider.queue;
 
 import java.util.LinkedList;
-
+/**
+ * 要抓取的URL队列
+ * @author 13983
+ *
+ */
 public class UrlQueue {
 	// 超链接队列
 	private static LinkedList<String> urlQueue = new LinkedList<String>();

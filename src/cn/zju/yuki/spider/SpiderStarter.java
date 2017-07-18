@@ -10,7 +10,11 @@ import java.util.Properties;
 import cn.zju.yuki.spider.model.SpiderParams;
 import cn.zju.yuki.spider.queue.UrlQueue;
 import cn.zju.yuki.spider.worker.SpiderWorker;
-
+/**
+ * 主类main函数
+ * @author 13983
+ *
+ */
 
 public class SpiderStarter {
 

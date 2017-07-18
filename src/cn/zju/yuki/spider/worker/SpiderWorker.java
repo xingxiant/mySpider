@@ -9,7 +9,11 @@ import cn.zju.yuki.spider.model.SpiderParams;
 import cn.zju.yuki.spider.parser.ContentParser;
 import cn.zju.yuki.spider.queue.UrlQueue;
 import cn.zju.yuki.spider.storage.DataStorage;
-
+/**执行线程
+ * 
+ * @author 13983
+ *
+ */
 public class SpiderWorker implements Runnable{
 		private static final Logger Log = Logger.getLogger(SpiderWorker.class.getName());
 		private PageFetcher fetcher;

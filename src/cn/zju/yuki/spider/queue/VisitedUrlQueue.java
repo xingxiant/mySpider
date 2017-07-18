@@ -1,9 +1,13 @@
 package cn.zju.yuki.spider.queue;
 
 import java.util.LinkedList;
-
+/**
+ * å·²ç»è®¿é—®è¿‡çš„URLé˜Ÿåˆ—
+ * @author 13983
+ *
+ */
 public class VisitedUrlQueue {
-	// ³¬Á´½Ó¶ÓÁĞ
+	// è¶…é“¾æ¥é˜Ÿåˆ—
 	private static LinkedList<String> visitedUrlQueue = new LinkedList<String>();
 
 	public synchronized static void addElement(String url){

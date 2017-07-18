@@ -14,7 +14,11 @@ import org.apache.http.util.EntityUtils;
 
 import cn.zju.yuki.spider.model.FetchedPage;
 import cn.zju.yuki.spider.queue.UrlQueue;
-
+/**
+ * fetcher模块爬虫模拟浏览器发出GET URL请求，获取页面
+ * @author 13983
+ *
+ */
 public class PageFetcher {
 	private static final Logger Log = Logger.getLogger(PageFetcher.class.getName());
 	private HttpClient client;
